@@ -13,11 +13,11 @@
 
 @font-face {
     font-family: Lemon;
-    src: url('/fuentes/lemon_milk/LEMONMILK-Light.otf');
+    src: url('./fuentes/lemon_milk/LEMONMILK-Light.otf');
 }
 
 
-@font-face {
+/* @font-face {
     font-family: PoppinsSemi;
     src: url('/Fonts/Poppins-SemiBoldItalic.otf');
 }
@@ -25,7 +25,7 @@
 @font-face {
     font-family: PoppinsReg;
     src: url('/Fonts/Poppins-Regular.otf');
-}
+} */
 
 *{
     box-sizing: border-box;
