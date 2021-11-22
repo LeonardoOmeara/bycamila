@@ -1,0 +1,33 @@
+header{
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 18vh;
+}
+
+.nav-bar{
+    width: fit-content;
+    margin-bottom: 0;
+}
+
+.nav-item{
+    margin:0 1rem;
+}
+
+.img-icon{
+    width: 4rem;
+}
+
+.products{
+    width:80vw;
+}
+
+.cards-container{
+    display: flex;
+    width: 80vw;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    margin: 2rem;
+}

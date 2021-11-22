@@ -1,0 +1,109 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 18/07/2016 15:46
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-announcement:before { content: "\f100"; }
+.flaticon-calculator:before { content: "\f101"; }
+.flaticon-cash-machine:before { content: "\f102"; }
+.flaticon-check:before { content: "\f103"; }
+.flaticon-coupon:before { content: "\f104"; }
+.flaticon-credit-card:before { content: "\f105"; }
+.flaticon-credit-cards:before { content: "\f106"; }
+.flaticon-currency:before { content: "\f107"; }
+.flaticon-delivery-cart:before { content: "\f108"; }
+.flaticon-delivery-truck:before { content: "\f109"; }
+.flaticon-delivery-truck-1:before { content: "\f10a"; }
+.flaticon-delivery-truck-2:before { content: "\f10b"; }
+.flaticon-document:before { content: "\f10c"; }
+.flaticon-file:before { content: "\f10d"; }
+.flaticon-like:before { content: "\f10e"; }
+.flaticon-list:before { content: "\f10f"; }
+.flaticon-money:before { content: "\f110"; }
+.flaticon-money-1:before { content: "\f111"; }
+.flaticon-money-bag:before { content: "\f112"; }
+.flaticon-online-shop:before { content: "\f113"; }
+.flaticon-package:before { content: "\f114"; }
+.flaticon-package-1:before { content: "\f115"; }
+.flaticon-piggy-bank:before { content: "\f116"; }
+.flaticon-price-tag:before { content: "\f117"; }
+.flaticon-price-tag-1:before { content: "\f118"; }
+.flaticon-refund:before { content: "\f119"; }
+.flaticon-shop:before { content: "\f11a"; }
+.flaticon-shopping-bag:before { content: "\f11b"; }
+.flaticon-shopping-basket:before { content: "\f11c"; }
+.flaticon-shopping-cart:before { content: "\f11d"; }
+.flaticon-shopping-cart-1:before { content: "\f11e"; }
+.flaticon-shopping-cart-2:before { content: "\f11f"; }
+.flaticon-shopping-cart-3:before { content: "\f120"; }
+.flaticon-shopping-cart-4:before { content: "\f121"; }
+.flaticon-tablet:before { content: "\f122"; }
+    
+    $font-Flaticon-announcement: "\f100";
+    $font-Flaticon-calculator: "\f101";
+    $font-Flaticon-cash-machine: "\f102";
+    $font-Flaticon-check: "\f103";
+    $font-Flaticon-coupon: "\f104";
+    $font-Flaticon-credit-card: "\f105";
+    $font-Flaticon-credit-cards: "\f106";
+    $font-Flaticon-currency: "\f107";
+    $font-Flaticon-delivery-cart: "\f108";
+    $font-Flaticon-delivery-truck: "\f109";
+    $font-Flaticon-delivery-truck-1: "\f10a";
+    $font-Flaticon-delivery-truck-2: "\f10b";
+    $font-Flaticon-document: "\f10c";
+    $font-Flaticon-file: "\f10d";
+    $font-Flaticon-like: "\f10e";
+    $font-Flaticon-list: "\f10f";
+    $font-Flaticon-money: "\f110";
+    $font-Flaticon-money-1: "\f111";
+    $font-Flaticon-money-bag: "\f112";
+    $font-Flaticon-online-shop: "\f113";
+    $font-Flaticon-package: "\f114";
+    $font-Flaticon-package-1: "\f115";
+    $font-Flaticon-piggy-bank: "\f116";
+    $font-Flaticon-price-tag: "\f117";
+    $font-Flaticon-price-tag-1: "\f118";
+    $font-Flaticon-refund: "\f119";
+    $font-Flaticon-shop: "\f11a";
+    $font-Flaticon-shopping-bag: "\f11b";
+    $font-Flaticon-shopping-basket: "\f11c";
+    $font-Flaticon-shopping-cart: "\f11d";
+    $font-Flaticon-shopping-cart-1: "\f11e";
+    $font-Flaticon-shopping-cart-2: "\f11f";
+    $font-Flaticon-shopping-cart-3: "\f120";
+    $font-Flaticon-shopping-cart-4: "\f121";
+    $font-Flaticon-tablet: "\f122";

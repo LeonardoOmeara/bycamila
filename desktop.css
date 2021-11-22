@@ -1,0 +1,20 @@
+.info{
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.main-img-container{
+    order:1;
+}
+
+.text-info{
+    width: 50%;
+}
+
+.cards-container{
+    width: 75rem;
+}
+
+.social-net{
+    width: 18rem;
+}

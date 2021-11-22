@@ -1,0 +1,260 @@
+:root{
+    /* --mainColor:#D94F42;
+    --secondColor:#FFFF ;
+    --thirdColor:#D9D9D9; 
+    --hoverColor:#D97486;
+    --habito-size:200px;  */
+
+    --mainColor:#F304B7;
+    --secondColor:#fefae0 ;
+    --thirdColor:#F304B7;
+    --hamburguer-size:15rem;
+}
+
+@font-face {
+    font-family: Lemon;
+    src: url('/fuentes/lemon_milk/LEMONMILK-Light.otf');
+}
+
+
+@font-face {
+    font-family: PoppinsSemi;
+    src: url('/Fonts/Poppins-SemiBoldItalic.otf');
+}
+
+@font-face {
+    font-family: PoppinsReg;
+    src: url('/Fonts/Poppins-Regular.otf');
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+body{
+    
+    background-color:var(--secondColor);
+    width: fit-content;
+    font-family: Lemon;
+
+}
+
+
+header{
+    font-family: Lemon;
+    font-size: 12pt;
+    display: flex;
+    height:100px;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--mainColor);
+}
+
+.nav-bar{
+    list-style: none;
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.nav-item a:link, a:visited {
+    color: var(--secondColor);
+    text-decoration: none;
+  }
+
+.nav-item:hover{
+    background-color: var(--hoverColor);
+}
+
+/* .nav-item:visited{
+    color: burlywood;
+    text-decoration: none;
+} */
+
+.hero{
+    width: 100vw;
+    height: 360px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--mainColor);
+}
+
+.main-title{
+    color: var(--secondColor);
+    font-size: 30pt;
+    position: relative;
+    left: 40px;
+}
+
+.main-title strong{
+    color: #0D385A;
+}
+
+.main-image-container{
+    width: 45%;
+    position: relative;
+    top: 27px;
+
+}
+
+.main-image{
+    width: 450px;
+    margin-left: 57px;
+}
+
+.about-us-container{
+    background-color: var(--secondColor);
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    margin: 50px 0;
+    height: 400px;
+}
+
+.about-us-info{
+    width: 30%;
+}
+
+.about-us-img{
+    position: relative;
+    top: 58px;
+    -webkit-user-modify: read-write-plaintext-only;
+}
+
+.about-us-info p{
+    font-size: 10pt;
+    width: 347px;
+}
+
+.about-us-info h3{
+    color: var(--thirdColor);
+    font-family: PoppinsSemi;
+    font-size: 10pt;
+}
+
+.more-button{
+    position: relative;
+    top: 25px;
+    width: 150px;
+}
+
+.more-button button{
+    background-color: #0D385A;;
+    height: 25px;
+    border: 1px solid #0D385A;;
+    border-radius: 12px;
+    color: var(--secondColor);
+    font-size: 14px;
+    padding: 0 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.about-us-img img{
+    width: 355px;
+}
+
+.habitos-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    background-color: var(--thirdColor);
+}
+
+.habitos-container h3{
+    color: var(--secondColor);
+    margin: 15px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline-start: 8px;
+    
+}
+
+.cards-container{
+    width: 710px;
+    display: flex;
+    /* height: 585px; */
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 18px;
+    /* padding: 0px; */
+    align-content: end;
+
+}
+
+.cards-container a{
+    height: fit-content;
+    margin: 10px;
+}
+
+/* .card-img-container{
+    width: 200px;
+} */
+
+.card-img-container img{
+    width: 270px;
+}
+
+.links-habitos{
+    width: 70vw;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: PoppinsSemi;
+    font-size: 7pt;
+}
+
+.links-habitos a:hover{
+    color: var(--mainColor);
+}
+
+
+.links-habitos a:link, a:visited {
+    color: var(--secondColor);
+    text-decoration: none;
+  }
+
+.links-habitos a h2{
+    color: #0D385A;
+    font-family: Lemon;
+}
+
+footer{
+    background-color: var(--secondColor);
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    color: var(--secondColor);
+    align-items: center;
+    
+}
+
+footer p{
+    width: 100vw;
+    text-align: center;
+    color: var(--mainColor);
+}
+
+.icon{
+    width: 15px;
+}
+
+.social-net{
+    right: 5%;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+}
+
+#esta{
+    color: #0D385A;;
+}
